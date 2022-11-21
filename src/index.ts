@@ -1,7 +1,8 @@
 import express from 'express'
-import './utils/dotenv'
+import initSetup from './utils/initSetup'
 
 const app = express()
+initSetup(app)
 
 app.use('/', (_, res) => {
   res.json({ hi: 'ho' })
