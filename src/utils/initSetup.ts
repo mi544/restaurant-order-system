@@ -3,6 +3,7 @@ import dotenv from 'dotenv'
 import morgan from 'morgan'
 import helmet from 'helmet'
 import cors from 'cors'
+import hpp from 'hpp'
 
 const initSetup = (app) => {
   // dotenv
@@ -14,6 +15,7 @@ const initSetup = (app) => {
   app.use(morgan('dev'))
   app.use(helmet())
   app.use(cors())
+  app.use(hpp())
 }
 
 export default initSetup
