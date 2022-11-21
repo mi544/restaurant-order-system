@@ -1,0 +1,13 @@
+{
+  "name": "restaurant-order-system",
+  "version": "0.0.1",
+  "main": "src/index.ts",
+  "license": "GPL-3.0-or-later",
+  "scripts": {
+    "dev": "nodemon src/index.ts"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^4.9.3"
+  }
+}
