@@ -1,4 +1,5 @@
 import express from 'express'
+import './utils/dotenv'
 
 const app = express()
 
