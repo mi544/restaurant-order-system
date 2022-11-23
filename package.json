@@ -4,7 +4,9 @@
   "main": "src/index.ts",
   "license": "GPL-3.0-or-later",
   "scripts": {
-    "dev": "nodemon src/index.ts"
+    "dev": "nodemon src/index.ts",
+    "watch": "tsc --watch --preserveWatchOutput",
+    "build": "tsc"
   },
   "dependencies": {
     "cors": "^2.8.5",
